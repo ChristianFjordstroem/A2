@@ -1,0 +1,7 @@
+test:
+    leaq 15, %rdx
+    leaq 7, %rdi
+    andq $7, %rdx
+    andq $15, %rdi
+    andq %rdi, %rdx
+    stop

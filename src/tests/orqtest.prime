@@ -1,0 +1,10 @@
+test:
+    leaq 11, %rdx
+    orq $3, %rdx
+    leaq 9, %r8
+    leaq 6, %r9
+    leaq 0, %r10
+    orq $0, %r10
+    orq %r8, %r9
+    orq %rdx, %r9
+    stop

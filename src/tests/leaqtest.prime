@@ -1,0 +1,10 @@
+test:
+    leaq 100, %rdx
+    leaq (%rdx), %rdi
+    leaq (,%rdx, 2), %rsi
+    leaq (%rdi, %rsi, 2), %r8
+    leaq 2, %r9
+    leaq 2(%r9), %r10
+    leaq 2(,%rdx, 2), %r12
+    leaq 2(%rdi, %rsi, 2), %r13
+    stop

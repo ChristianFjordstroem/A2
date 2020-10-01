@@ -1,0 +1,15 @@
+test:
+    leaq 15, %r8
+    leaq 15, %r9
+    leaq 15, %r10
+    xorq $15, %r8
+    xorq %r9, %r10
+    leaq 0, %r12
+    leaq 0, %r13
+    leaq 0, %r14
+    xorq $0, %r12
+    xorq %r13, %r14
+    leaq 9, %r15
+    xorq $13, %r15
+    leaq 13, %rdx
+    xorq %r15, %rdx

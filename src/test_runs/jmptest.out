@@ -1,0 +1,6 @@
+     1   : R-V      0 -> a4800a000000               : R--                                                       : R-- 
+     2   : R-V      6 -> a49008000000               : R-V  a4  LEAQ i,d                           a -> reg[8]   : R-- 
+     3   : R-V      c -> 4f0018000000               : R-V  a4  LEAQ i,d                           8 -> reg[9]   : R-V 
+     4   : R-V     12 -> 50900a000000               : R-V  4f  JMP   s,d,p                                      : R-V 
+     5   : R-V     18 -> 1089                       : R-V  50  ADD  $i,d                         12 -> reg[9]   : R-V 
+ -- address mismatch, access 'R' 9, but tracefile expected address: 8

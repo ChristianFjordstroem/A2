@@ -1,0 +1,8 @@
+test:
+    leaq 10, %r8
+    leaq 8, %r9
+    jmp L1
+    addq $10, %r9
+L1:
+    addq %r9, %r8
+    stop

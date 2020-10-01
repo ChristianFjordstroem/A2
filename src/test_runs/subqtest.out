@@ -1,0 +1,7 @@
+     1   : R-V      0 -> a43020000000               : R--                                                       : R-- 
+     2   : R-V      6 -> a46010000000               : R-V  a4  LEAQ i,d                          20 -> reg[3]   : R-- 
+     3   : R-V      c -> 513010000000               : R-V  a4  LEAQ i,d                          10 -> reg[6]   : R-V 
+     4   : R-V     12 -> 516008000000               : R-V  51  SUB  $i,d                         10 -> reg[3]   : R-V 
+     5   : R-V     18 -> 0000                       : R-V  51  SUB  $i,d                          8 -> reg[6]   : R-V 
+     6   : R-V     1a -> 0000                       : R-V  00  STOP                                             : R-V 
+Done

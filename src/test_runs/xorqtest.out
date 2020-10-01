@@ -1,0 +1,17 @@
+     1   : R-V      0 -> a4800f000000               : R--                                                       : R-- 
+     2   : R-V      6 -> a4900f000000               : R-V  a4  LEAQ i,d                           f -> reg[8]   : R-- 
+     3   : R-V      c -> a4a00f000000               : R-V  a4  LEAQ i,d                           f -> reg[9]   : R-V 
+     4   : R-V     12 -> 54800f000000               : R-V  a4  LEAQ i,d                           f -> reg[a]   : R-V 
+     5   : R-V     18 -> 14a9                       : R-V  54  XOR  $i,d                          0 -> reg[8]   : R-V 
+     6   : R-V     1a -> a4c000000000               : R-V  14  XOR  s,d                           0 -> reg[a]   : R-V 
+     7   : R-V     20 -> a4d000000000               : R-V  a4  LEAQ i,d                           0 -> reg[c]   : R-V 
+     8   : R-V     26 -> a4e000000000               : R-V  a4  LEAQ i,d                           0 -> reg[d]   : R-V 
+     9   : R-V     2c -> 54c000000000               : R-V  a4  LEAQ i,d                           0 -> reg[e]   : R-V 
+    10   : R-V     32 -> 14ed                       : R-V  54  XOR  $i,d                          0 -> reg[c]   : R-V 
+    11   : R-V     34 -> a4f009000000               : R-V  14  XOR  s,d                           0 -> reg[e]   : R-V 
+    12   : R-V     3a -> 54f00d000000               : R-V  a4  LEAQ i,d                           9 -> reg[f]   : R-V 
+    13   : R-V     40 -> a4300d000000               : R-V  54  XOR  $i,d                          4 -> reg[f]   : R-V 
+    14   : R-V     46 -> 143f                       : R-V  a4  LEAQ i,d                           d -> reg[3]   : R-V 
+    15   : R-V     48 -> 0000                       : R-V  14  XOR  s,d                           9 -> reg[3]   : R-V 
+    16   : R-V     4a -> 0000                       : R-V  00  STOP                                             : R-V 
+Done

@@ -1,0 +1,11 @@
+     1   : R-V      0 -> a4300b000000               : R--                                                       : R-- 
+     2   : R-V      6 -> 533003000000               : R-V  a4  LEAQ i,d                           b -> reg[3]   : R-- 
+     3   : R-V      c -> a48009000000               : R-V  53  OR   $i,d                          b -> reg[3]   : R-V 
+     4   : R-V     12 -> a49006000000               : R-V  a4  LEAQ i,d                           9 -> reg[8]   : R-V 
+     5   : R-V     18 -> a4a000000000               : R-V  a4  LEAQ i,d                           6 -> reg[9]   : R-V 
+     6   : R-V     1e -> 53a000000000               : R-V  a4  LEAQ i,d                           0 -> reg[a]   : R-V 
+     7   : R-V     24 -> 1398                       : R-V  53  OR   $i,d                          0 -> reg[a]   : R-V 
+     8   : R-V     26 -> 1393                       : R-V  13  OR   s,d                           f -> reg[9]   : R-V 
+     9   : R-V     28 -> 0000                       : R-V  13  OR   s,d                           f -> reg[9]   : R-V 
+    10   : R-V     2a -> 0000                       : R-V  00  STOP                                             : R-V 
+Done

@@ -1,0 +1,7 @@
+test:
+    leaq 16, %rdx
+    leaq 8, %rdi
+    addq $16, %rdx
+    addq $8, %rdi
+    addq %rdi, %rdx
+    stop
